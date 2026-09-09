@@ -13,3 +13,14 @@ Start with the overview, then use the technical guide as the execution runbook:
 - [Project Overview And Business Outcomes](docs/01_PROJECT_OVERVIEW_AND_BUSINESS_OUTCOMES.md)
 - [Technical Setup Deployment And Execution Guide](docs/02_TECHNICAL_SETUP_DEPLOYMENT_AND_EXECUTION_GUIDE.md)
 - [Genie Agent Instructions](docs/03_GENIE_AGENT_INSTRUCTIONS.md)
+
+## 🚀 Quick Start
+
+This repository includes a demo notebook for the Uber Eats Lakehouse project.
+
+To run it:
+1. Clone the repo into Databricks Repos.
+2. Navigate to `.bundle/uber-eats-marketplace-lakehouse/dev/notebooks/project_demo/demo_quickstart.sql`.
+3. Open the notebook in Databricks and run all cells.
+
+The notebook demonstrates the medallion architecture (Bronze → Silver → Gold) with sample data.
